@@ -1,0 +1,267 @@
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-mkb8l.170555a2f73e8720",
+        "namespace": "events",
+        "uid": "70b98851-4532-4f7f-996b-eebff6058077",
+        "resourceVersion": "3283",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Scheduled",
+    "message": "Successfully assigned events/event-exporter-66c5459bf8-mkb8l to minikube",
+    "source": {
+        "component": "default-scheduler"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-mkb8l",
+        "uid": "fdf033af-6de6-4e3f-a78d-e6e517915604",
+        "apiVersion": "v1",
+        "resourceVersion": "3279",
+        "labels": {
+            "app": "event-exporter",
+            "pod-template-hash": "66c5459bf8",
+            "version": "v1"
+        }
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-mkb8l.170555a31d3456fc",
+        "namespace": "events",
+        "uid": "46d39b2e-dd3a-4954-be51-0994777c3c2e",
+        "resourceVersion": "3288",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Pulled",
+    "message": "Container image \"ghcr.io/opsgenie/kubernetes-event-exporter:v0.11\" already present on machine",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-mkb8l",
+        "uid": "fdf033af-6de6-4e3f-a78d-e6e517915604",
+        "apiVersion": "v1",
+        "resourceVersion": "3280",
+        "fieldPath": "spec.containers{event-exporter}",
+        "labels": {
+            "app": "event-exporter",
+            "pod-template-hash": "66c5459bf8",
+            "version": "v1"
+        }
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-mkb8l.170555a328075ded",
+        "namespace": "events",
+        "uid": "f07930f3-00b5-4fff-8824-687e83c12515",
+        "resourceVersion": "3293",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Started",
+    "message": "Started container event-exporter",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-mkb8l",
+        "uid": "fdf033af-6de6-4e3f-a78d-e6e517915604",
+        "apiVersion": "v1",
+        "resourceVersion": "3280",
+        "fieldPath": "spec.containers{event-exporter}",
+        "labels": {
+            "app": "event-exporter",
+            "pod-template-hash": "66c5459bf8",
+            "version": "v1"
+        }
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-mkb8l.170555a31fc0a06b",
+        "namespace": "events",
+        "uid": "a7562554-8d59-41a2-b534-f1db59a16c57",
+        "resourceVersion": "3292",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Created",
+    "message": "Created container event-exporter",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-mkb8l",
+        "uid": "fdf033af-6de6-4e3f-a78d-e6e517915604",
+        "apiVersion": "v1",
+        "resourceVersion": "3280",
+        "fieldPath": "spec.containers{event-exporter}",
+        "labels": {
+            "app": "event-exporter",
+            "pod-template-hash": "66c5459bf8",
+            "version": "v1"
+        }
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-sppfr.170555a2f682e7a0",
+        "namespace": "events",
+        "uid": "360c6c01-63f2-427d-9a49-a776f9ec77b3",
+        "resourceVersion": "3278",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Killing",
+    "message": "Stopping container event-exporter",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-sppfr",
+        "uid": "ad8c3ee7-914c-45e3-8a13-9f5d11411c57",
+        "apiVersion": "v1",
+        "resourceVersion": "3063",
+        "fieldPath": "spec.containers{event-exporter}"
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8.170555a2f70960e0",
+        "namespace": "events",
+        "uid": "7a73e7ed-4c63-4ab3-9021-f77306fcf532",
+        "resourceVersion": "3282",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "SuccessfulCreate",
+    "message": "Created pod: event-exporter-66c5459bf8-mkb8l",
+    "source": {
+        "component": "replicaset-controller"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:16Z",
+    "count": 1,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "ReplicaSet",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8",
+        "uid": "982caa7d-753b-4809-beba-b256a29b9bba",
+        "apiVersion": "apps/v1",
+        "resourceVersion": "3075",
+        "labels": {
+            "app": "event-exporter",
+            "pod-template-hash": "66c5459bf8",
+            "version": "v1"
+        }
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-sppfr.170555a2f682e7a0",
+        "namespace": "events",
+        "uid": "360c6c01-63f2-427d-9a49-a776f9ec77b3",
+        "resourceVersion": "3294",
+        "creationTimestamp": "2022-07-26T09:03:16Z"
+    },
+    "reason": "Killing",
+    "message": "Stopping container event-exporter",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:16Z",
+    "lastTimestamp": "2022-07-26T09:03:17Z",
+    "count": 2,
+    "type": "Normal",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-sppfr",
+        "uid": "ad8c3ee7-914c-45e3-8a13-9f5d11411c57",
+        "apiVersion": "v1",
+        "resourceVersion": "3063",
+        "fieldPath": "spec.containers{event-exporter}"
+    }
+}
+{
+    "metadata": {
+        "name": "event-exporter-66c5459bf8-sppfr.170555a34a47c56a",
+        "namespace": "events",
+        "uid": "57227914-6a6b-4df6-99c2-4d4795e7686d",
+        "resourceVersion": "3295",
+        "creationTimestamp": "2022-07-26T09:03:17Z"
+    },
+    "reason": "FailedKillPod",
+    "message": "error killing pod: failed to \"KillContainer\" for \"event-exporter\" with KillContainerError: \"rpc error: code = Unknown desc = Error response from daemon: No such container: 0c5f91228e2d4a4b813a8e9f8822b3fbe1fae8009eee5089ba51bc3080e6f6ff\"",
+    "source": {
+        "component": "kubelet",
+        "host": "minikube"
+    },
+    "firstTimestamp": "2022-07-26T09:03:17Z",
+    "lastTimestamp": "2022-07-26T09:03:17Z",
+    "count": 1,
+    "type": "Warning",
+    "eventTime": null,
+    "reportingComponent": "",
+    "reportingInstance": "",
+    "involvedObject": {
+        "kind": "Pod",
+        "namespace": "events",
+        "name": "event-exporter-66c5459bf8-sppfr",
+        "uid": "ad8c3ee7-914c-45e3-8a13-9f5d11411c57",
+        "apiVersion": "v1"
+    }
+}
